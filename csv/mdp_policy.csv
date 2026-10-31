@@ -1,0 +1,6 @@
+Durum,Durum_Adi,Eylem,Eylem_Adi,Tek_Adim_EU,MDP_Q,Gerekce
+S0,Normal,A0,Izlemeye devam et,0.0,-24.074470089684688,"Tam gozlemlenebilir MDP value iteration, gamma=0.90"
+S1,Kimlik ele gecirme,A3,Supheli oturumu sonlandir ve hesabi sifirla,5.0,-59.14953021735488,"Tam gozlemlenebilir MDP value iteration, gamma=0.90"
+S2,Yanal hareket,A5,Insan guvenlik uzmanina yonlendir,27.0,-116.19328156791897,"Tam gozlemlenebilir MDP value iteration, gamma=0.90"
+S3,Veri sizdirma,A4,Uc cihazi izole et,35.0,-190.2560782780999,"Tam gozlemlenebilir MDP value iteration, gamma=0.90"
+S4,Sinirlandirilmis,A0,Izlemeye devam et,0,-7.471387268655263,"Tam gozlemlenebilir MDP value iteration, gamma=0.90"

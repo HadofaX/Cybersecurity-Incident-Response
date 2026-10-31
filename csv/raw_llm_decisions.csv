@@ -1,0 +1,13 @@
+Senaryo,Eylem,Eylem_Adi,LLM_Saldiri_Olasiligi,Gerekce,Olasilik_Verdi,Yanlis_Kesinlik,Fayda_Maliyet,Hata_Kodlari
+S1,A0,Izlemeye devam et,0.08,Belirgin anomali yok; izleme yeterli gorunuyor.,Evet,Hayir,Kismen,E0
+S2,A3,Supheli oturumu sonlandir ve hesabi sifirla,0.9,Iki kimlik anomalisi hesabin ele gecirildigini guclu sekilde dusunduruyor; oturumu sonlandirip sifirlamak gerekir.,Evet,Evet,Kismen,E11
+S3,A4,Uc cihazi izole et,0.92,Kimlik anomalisi ve uc nokta alarmi birlikte yanal hareket riskini yukseltiyor; cihazi izole etmek gerekir.,Evet,Hayir,Hayir,E8
+S4,A4,Uc cihazi izole et,0.98,Uc nokta alarmindan sonra veri cikisi kritik veri sizdirma belirtisidir; acil izolasyon gerekir.,Evet,Hayir,Kismen,E12
+S5,A3,Supheli oturumu sonlandir ve hesabi sifirla,0.75,Kimlik anomalisi goruldugu icin hesap guvenligi icin sifirlama yapilmalidir.,Evet,Hayir,Hayir,"E2,E5,E6"
+S6,A1,Ek log ve EDR incelemesi yap,0.55,Ilk gozlem normal olsa da sonraki uc nokta alarmi nedeniyle ek inceleme yapilmalidir.,Evet,Hayir,Kismen,E3
+S7,A4,Uc cihazi izole et,0.85,Olagan disi veri cikisi olasi sizdirma olarak kabul edilip cihaz izole edilmelidir.,Evet,Evet,Hayir,"E2,E5,E11"
+S8,A4,Uc cihazi izole et,0.99,"Kimlik, uc nokta ve veri cikisi sinyalleri cok asamali kritik saldiri gosteriyor; izolasyon gerekir.",Evet,Hayir,Kismen,E12
+S9,A4,Uc cihazi izole et,0.95,Tekrarlayan uc nokta alarmlari yanal hareketi guclu sekilde destekliyor.,Evet,Hayir,Kismen,E0
+S10,A4,Uc cihazi izole et,0.97,Kimlik anomalisi ile veri cikisinin birlikte gorulmesi kritik risktir; izolasyon gerekir.,Evet,Hayir,Kismen,E12
+S11,A0,Izlemeye devam et,0.25,Sinyaller zayif ve celiskili; simdilik izleme yeterli.,Evet,Hayir,Kismen,E6
+S12,A4,Uc cihazi izole et,0.995,Ardisik kritik sinyaller veri sizdirma riskini cok yuksek yapar; acil izolasyon gerekir.,Evet,Hayir,Kismen,E12
