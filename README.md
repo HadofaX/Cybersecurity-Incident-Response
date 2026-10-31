@@ -80,6 +80,4 @@ Python, Pandas, Matplotlib, Jupyter Notebook, Bayesian Networks, Bayesian infere
 
 Computer Engineering Student
 
-## License
 
-No license has been applied yet. All rights reserved unless a license file is added.
